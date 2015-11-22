@@ -9,12 +9,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".RecipesActivity"
-    tools:showIn="@layout/activity_recipes">
+    tools:context="team.jcandfriends.namnam.MainActivity"
+    tools:showIn="@layout/activity_main">
 
-    <TextView
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerInParent="true" />
 
 </RelativeLayout>
