@@ -37,7 +37,7 @@ public class IngredientAdapter extends RealmRecyclerViewAdapter<Ingredient, Ingr
         public IngredientViewHolder(View itemView) {
             super(itemView);
             // FIXME: 11/9/15 Set actual IDs
-            name = (TextView) itemView.findViewById(R.id.fab);
+            name = (TextView) itemView.findViewById(R.id.action_settings);
             description = (TextView) itemView.findViewById(R.id.action_settings);
 
             Stack stack;
